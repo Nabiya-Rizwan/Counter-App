@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right, grey, #ffffff, #6c63ff);
+
+}
+    
+.box {
+  width: 200px;
+  height: 200px;
+  background: grey;
+  border-radius: 15px;
+  box-shadow: 20px 30px 50px 20px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#title{
+  
+    text-align: center;
+}
+.btn{
+    width: 60px;
+    height: 5vh;
+     margin: 25px ;
+     margin-right: 30px;
+     /* display: flex; */
+     /* justify-content: space-between; */
+    
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-family: cursive;
+}
